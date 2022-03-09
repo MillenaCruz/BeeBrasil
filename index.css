@@ -1,10 +1,10 @@
-@font-face {
+/*@font-face {
     font-family: "Smooch Sans";
     src: url(fonts/SyneMono-Regular.ttf) format("truetype");
-}
+}*/
 
 *{
-    font-family:"Smooch Sans";
+    font-family:'Syne Mono', monospace;
     color:#022859;
     list-style: none;
 }
