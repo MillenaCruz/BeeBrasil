@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Smooch Sans";
+    src: url(fonts/SyneMono-Regular.ttf);
+}
+
 *{
     font-family:"Smooch Sans";
     color:#022859;
