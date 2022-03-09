@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Smooch Sans";
-    src: url(fonts/SyneMono-Regular.ttf);
+    src: url(fonts/SyneMono-Regular.ttf) format("truetype");
 }
 
 *{
