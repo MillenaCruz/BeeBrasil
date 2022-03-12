@@ -136,17 +136,21 @@ p{
     font-size: 1rem;
     color: #FFFFFF;
     font-weight: 900;
-    line-height: 30px;
+    line-height: 40px;
     text-align: center;
 }
 
 .cardlaranja{
     width: 70%;
-    height: 40%;
+    /*height: 45%;*/
     background-color:#F2AE30;
     border-radius: 30px;
     margin: auto;
     padding: 10px;
+}
+
+.cardlaranja>p{
+    font-size: 1rem;
 }
 
 
@@ -203,7 +207,23 @@ h3> a{
     height: 100%;
 }
 
-@media (max-width: 768px) {
+.desenvolvido{
+    display: flex;
+    justify-content:center;
+}
+
+.desenvolvido>h3{
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.desenvolvido>a>img{
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 750px) {
     h1 {
         font-size: 3rem;
     }
@@ -229,4 +249,38 @@ h3> a{
     .nomemenu>a{
         font-size: 0.5rem;
     }
+
+
+    .cardsgeral{
+        flex-direction: column;
+       
+        align-items: center;
+        margin-top: 0%;
+        margin-bottom: 0%;
+
+    }
+    .cardamarelo{
+        margin-bottom: 50px;
+        width: 40%;
+
+    }
+
+    .espacamento>p{
+       line-height: 20px;
+       font-size: 0.5rem;
+    }
+
+
+
+    .cardlaranja{
+    
+
+    }
+
+    .cardlaranja>p{
+        font-size: 0.5rem;
+
+    }
+
+
 }
